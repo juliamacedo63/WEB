@@ -7,6 +7,19 @@ body{
     background-color: #000;
 
 }
+
+.family-selection {
+    margin: 20px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    pointer-events: none; /* Impede que o usuário clique nos botões enquanto estiver invisível */
+}
+
+.family-selection.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .container{
     padding: 25px 9%;
     text-align: center;
