@@ -1,58 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Álbum de Fotos</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <title>Jogo da Forca</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="heading">Procurar foto do familiar:</h1>
-        <input type="text" placeholder="Quem deseja procurar. Ex: Mãe, Pai..." id="search-box">
-        
-        
-        <div class="family-selection" style="display: none;">
-            <button id="my-family">Família da Júlia</button>
-            <button id="friend-family">Família do Pedro</button>
+    <div class= "container">
+        <div id="imagem" > </div>
+            
+        <div id = "palavra-secreta">
+            <div class="letras">A</div>
+            <div class="letras">A</div>
+            <div class="letras">A</div>
+            <div class="letras">A</div>
         </div>
-        
-        <div class="container-image">
-            <!-- Imagens com o atributo data-family para definir a quem pertencem -->
-            <div class="image" data-title="Mãe" data-family="Pedro">
-                <img src="" alt="Mãe do Pedro">
-                <h3>Mãe do Pedro</h3>
-            </div>
-            
-            <div class="image" data-title="Mãe" data-family="Júlia">
-                <img src="images/julia/MãedaJulia(1).jpeg" alt="Mãe da Júlia">
-                <h3>Mãe da Júlia</h3>
-            </div>
-            
-            <div class="image" data-title="Irmã" data-family="Júlia">
-                <img src="images/julia/IrmãdaJúlia(1).jpeg" alt="Irmã da Júlia">
-                <h3>Irmã da Júlia</h3>
-            </div>
-            
-            <div class="image" data-title="Irmã" data-family="Pedro">
-                <img src="" alt="Irmã do Pedro">
-                <h3>Irmã do Pedro</h3>
-            </div>
+        <div id="teclado">
 
-            <div class="image" data-title="Pai" data-family="Pedro">
-                <img src="" alt="Pai do Pedro">
-                <h3>Pai do Pedro</h3>
-            </div>
-            <div class="image" data-title="Bebê"data-family="Júlia">
-                <img src="images/julia/Juliabebê(2).jpeg" alt="Júlia Bebê">
-                <h3>Júlia Bebê</h3>
-            </div>
-           
+        </div>
+        <div id="categoria">
+
         </div>
     </div>
-    <script src="js/main.js"></script>
 </body>
 </html>
